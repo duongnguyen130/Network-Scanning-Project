@@ -22,7 +22,7 @@ def run_device_scan(ip_addresses):
             print(f"An error occurred while executing nmap for {ip}:", str(e))
     return scan_results
 
-def parse_nmap_output(ip, output):
+def parse_nmap_output(ip, output):#Scan the JSON file
     lines = output.split("\n")
     os_info = "Unknown"
     device_type = "Unknown"
