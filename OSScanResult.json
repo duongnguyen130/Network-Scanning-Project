@@ -1,0 +1,59 @@
+{
+    "hosts": [
+        {
+            "host": "10.0.0.1",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.58",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.126",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.142",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.152",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.205",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.223",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.243",
+            "OS": "Unknown",
+            "Device Type": "proxy server|WAP"
+        },
+        {
+            "host": "10.0.0.252",
+            "OS": "Unknown",
+            "Device Type": "general purpose"
+        },
+        {
+            "host": "10.0.0.253",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
+        },
+        {
+            "host": "10.0.0.83",
+            "OS": "Unknown",
+            "Device Type": "general purpose"
+        }
+    ]
+}
