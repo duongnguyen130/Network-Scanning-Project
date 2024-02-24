@@ -37,7 +37,7 @@ def parse_nmap_output(output):
         scan_results["hosts"].append(host_info)
     
     return scan_results
-
+10
 def save_results(scan_results, filename='PingScanResult.json'): #Save result to a JSON file
     with open(filename, 'w') as file:
         json.dump(scan_results, file, indent=4)
