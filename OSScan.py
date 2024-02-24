@@ -30,7 +30,7 @@ def parse_nmap_output(ip, output):
         if "OS details:" in line:
             os_info = line.split(":")[1].strip()
             
-        if "iphone" in line: #Testing if can detect iphone
+        if "iphone" in line:
             device_type = "Iphone"
             break
         elif "Device type:" in line:
