@@ -10,6 +10,7 @@ def read_ip_addresses(filename='PingScanResult.json'):
 def run_device_scan(ip_addresses):
     scan_results = {'hosts': []}
     for ip in ip_addresses:
+        print(f"OS Scanning for {ip}")
         command = ["nmap", "-O", "--version-intensity", "9", ip]
         try:
             result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
@@ -28,6 +29,10 @@ def parse_nmap_output(ip, output):
     for line in lines:
         if "OS details:" in line:
             os_info = line.split(":")[1].strip()
+            
+        if "iphone" in line: #Testing if can detect iphone
+            device_type = "Iphone"
+            break
         elif "Device type:" in line:
             device_type = line.split(":")[1].strip()
             break

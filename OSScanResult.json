@@ -13,7 +13,7 @@
         {
             "host": "10.0.0.126",
             "OS": "Unknown",
-            "Device Type": "Unknown"
+            "Device Type": "Iphone"
         },
         {
             "host": "10.0.0.142",
@@ -31,19 +31,9 @@
             "Device Type": "Unknown"
         },
         {
-            "host": "10.0.0.223",
-            "OS": "Unknown",
-            "Device Type": "Unknown"
-        },
-        {
             "host": "10.0.0.243",
             "OS": "Unknown",
             "Device Type": "proxy server|WAP"
-        },
-        {
-            "host": "10.0.0.252",
-            "OS": "Unknown",
-            "Device Type": "general purpose"
         },
         {
             "host": "10.0.0.253",

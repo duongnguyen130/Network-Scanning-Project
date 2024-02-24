@@ -13,12 +13,6 @@
             "mac": "AE:42:A1:06:C2:29"
         },
         {
-            "host": "10.0.0.84",
-            "status": "up",
-            "type": "Unknown",
-            "mac": "A6:A0:12:DE:80:E4"
-        },
-        {
             "host": "10.0.0.126",
             "status": "up",
             "type": "Unknown",
