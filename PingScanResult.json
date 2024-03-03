@@ -13,6 +13,12 @@
             "mac": "AE:42:A1:06:C2:29"
         },
         {
+            "host": "10.0.0.84",
+            "status": "up",
+            "type": "Unknown",
+            "mac": "A6:A0:12:DE:80:E4"
+        },
+        {
             "host": "10.0.0.142",
             "status": "up",
             "type": "Shenzhen iComm Semiconductor",
@@ -35,6 +41,18 @@
             "status": "up",
             "type": "Unknown",
             "mac": "AE:42:A1:06:C2:29"
+        },
+        {
+            "host": "10.0.0.243",
+            "status": "up",
+            "type": "Comcast Cable",
+            "mac": "F0:46:3B:56:AF:D4"
+        },
+        {
+            "host": "10.0.0.248",
+            "status": "up",
+            "type": "Intel Corporate",
+            "mac": "8C:F8:C5:DB:8C:79"
         },
         {
             "host": "10.0.0.252",

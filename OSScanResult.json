@@ -2,38 +2,33 @@
     "hosts": [
         {
             "host": "10.0.0.1",
-            "OS": "Unknown",
-            "Device Type": "Unknown"
+            "OS": "Linux 5.1",
+            "Device Type": "general purpose"
         },
         {
             "host": "10.0.0.58",
-            "OS": "Unknown",
+            "OS": "Canon imageRUNNER C5185 printer (96%), Fujitsu Externus DX80 or IBM DCS9900 NAS device (92%), VxWorks (92%), Canon imageRUNNER C2380 or C2880i or Xerox Phaser 8860MFP printer (90%), Avaya 4526GTX switch (90%), Nortel CS1000M VoIP PBX or Xerox Phaser 8560DT printer (88%), Aastra Dialog 4425 IP phone (87%), HP ProCurve 3500yl, 5406zl, or 6200yl switch or UTStarcom F1000 VoIP phone (87%), National Instruments CompactRIO automation controller (87%), Nortel Ethernet Routing Switch 4550T-PWR (87%)",
             "Device Type": "Unknown"
-        },
-        {
-            "host": "10.0.0.126",
-            "OS": "Unknown",
-            "Device Type": "Iphone"
         },
         {
             "host": "10.0.0.142",
-            "OS": "Unknown",
-            "Device Type": "Unknown"
+            "OS": "Linux 2.6.32 - 3.5",
+            "Device Type": "general purpose"
         },
         {
             "host": "10.0.0.152",
-            "OS": "Unknown",
-            "Device Type": "Unknown"
-        },
-        {
-            "host": "10.0.0.205",
-            "OS": "Unknown",
-            "Device Type": "Unknown"
+            "OS": "Linux 2.6.32 - 3.5",
+            "Device Type": "general purpose"
         },
         {
             "host": "10.0.0.243",
-            "OS": "Unknown",
+            "OS": "Citrix Access Gateway VPN gateway, Linksys WRT610Nv3 WAP",
             "Device Type": "proxy server|WAP"
+        },
+        {
+            "host": "10.0.0.248",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
         },
         {
             "host": "10.0.0.253",
@@ -42,7 +37,7 @@
         },
         {
             "host": "10.0.0.83",
-            "OS": "Unknown",
+            "OS": "Microsoft Windows 10 1607",
             "Device Type": "general purpose"
         }
     ]

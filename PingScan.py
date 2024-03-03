@@ -37,14 +37,14 @@ def parse_nmap_output(output):
         scan_results["hosts"].append(host_info)
     
     return scan_results
-10
+
 def save_results(scan_results, filename='PingScanResult.json'): #Save result to a JSON file
     with open(filename, 'w') as file:
         json.dump(scan_results, file, indent=4)
-    print(f"Scan results saved to {filename}")
+    print(f"Ping scan results saved to {filename}")
 
-if __name__ == "__main__":
-    target = input("Enter the target IP or subnet (e.g., '192.168.1.0/24'): ")
+def pingScan():
+    target = input("Enter the target IP(e.g., '192.168.1.0/24'): ")
     output = run_ping_scan(target)
     scan_results = parse_nmap_output(output)
     save_results(scan_results)

@@ -1,6 +1,7 @@
 import json
 import subprocess
 import sys
+import OSFind
 
 def read_ip_addresses(filename='PingScanResult.json'):
     with open(filename, 'r') as file:
@@ -11,7 +12,7 @@ def run_device_scan(ip_addresses):
     scan_results = {'hosts': []}
     for ip in ip_addresses:
         print(f"OS Scanning for {ip}")
-        command = ["nmap", "-O", "--version-intensity", "9", ip]
+        command = ["nmap", "-O", ip]
         try:
             result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
             if result.stderr:
@@ -27,9 +28,8 @@ def parse_nmap_output(ip, output):#Scan the JSON file
     os_info = "Unknown"
     device_type = "Unknown"
     for line in lines:
-        if "OS details:" in line:
-            os_info = line.split(":")[1].strip()
-            
+        os_info = OSFind.identify_OS(output)
+
         if "iphone" in line: #Test detect iphone
             device_type = "Iphone"
             break
@@ -43,7 +43,7 @@ def save_results(scan_results, filename='OSScanResult.json'):
         json.dump(scan_results, file, indent=4)
     print(f"Device scan results saved to {filename}")
 
-if __name__ == "__main__":
+def detailedScan():
     ip_addresses = read_ip_addresses()
     if not ip_addresses:
         print("No IP addresses found to scan.")
