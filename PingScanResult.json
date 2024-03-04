@@ -3,73 +3,67 @@
         {
             "host": "10.0.0.1",
             "status": "up",
-            "type": "Arris Group",
+            "manufacturer": "Arris Group",
             "mac": "10:56:11:46:71:EE"
         },
         {
             "host": "10.0.0.58",
             "status": "up",
-            "type": "Unknown",
+            "manufacturer": "Unknown",
             "mac": "AE:42:A1:06:C2:29"
-        },
-        {
-            "host": "10.0.0.84",
-            "status": "up",
-            "type": "Unknown",
-            "mac": "A6:A0:12:DE:80:E4"
         },
         {
             "host": "10.0.0.142",
             "status": "up",
-            "type": "Shenzhen iComm Semiconductor",
+            "manufacturer": "Shenzhen iComm Semiconductor",
             "mac": "08:6F:48:9A:A5:BA"
         },
         {
             "host": "10.0.0.152",
             "status": "up",
-            "type": "Shenzhen iComm Semiconductor",
+            "manufacturer": "Shenzhen iComm Semiconductor",
             "mac": "08:6F:48:57:1A:AE"
         },
         {
             "host": "10.0.0.205",
             "status": "up",
-            "type": "Samsung Electronics",
+            "manufacturer": "Samsung Electronics",
             "mac": "BC:45:5B:A4:16:8E"
         },
         {
             "host": "10.0.0.223",
             "status": "up",
-            "type": "Unknown",
+            "manufacturer": "Unknown",
             "mac": "AE:42:A1:06:C2:29"
         },
         {
             "host": "10.0.0.243",
             "status": "up",
-            "type": "Comcast Cable",
+            "manufacturer": "Comcast Cable",
             "mac": "F0:46:3B:56:AF:D4"
         },
         {
             "host": "10.0.0.248",
             "status": "up",
-            "type": "Intel Corporate",
+            "manufacturer": "Intel Corporate",
             "mac": "8C:F8:C5:DB:8C:79"
         },
         {
             "host": "10.0.0.252",
             "status": "up",
-            "type": "Unknown",
+            "manufacturer": "Unknown",
             "mac": "AE:42:A1:06:C2:29"
         },
         {
             "host": "10.0.0.253",
             "status": "up",
-            "type": "HP",
+            "manufacturer": "HP",
             "mac": "5C:60:BA:8B:6D:47"
         },
         {
             "host": "10.0.0.83",
             "status": "up",
-            "type": "Unknown"
+            "manufacturer": "Unknown"
         }
     ]
 }

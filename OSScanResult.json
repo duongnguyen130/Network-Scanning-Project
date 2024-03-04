@@ -3,27 +3,32 @@
         {
             "host": "10.0.0.1",
             "OS": "Linux 5.1",
-            "Device Type": "general purpose"
+            "Device Type": "Switch/Router"
         },
         {
             "host": "10.0.0.58",
-            "OS": "Canon imageRUNNER C5185 printer (96%), Fujitsu Externus DX80 or IBM DCS9900 NAS device (92%), VxWorks (92%), Canon imageRUNNER C2380 or C2880i or Xerox Phaser 8860MFP printer (90%), Avaya 4526GTX switch (90%), Nortel CS1000M VoIP PBX or Xerox Phaser 8560DT printer (88%), Aastra Dialog 4425 IP phone (87%), HP ProCurve 3500yl, 5406zl, or 6200yl switch or UTStarcom F1000 VoIP phone (87%), National Instruments CompactRIO automation controller (87%), Nortel Ethernet Routing Switch 4550T-PWR (87%)",
-            "Device Type": "Unknown"
+            "OS": "Canon imageRUNNER C5185 printer (96%), Fujitsu Externus DX80 or IBM DCS9900 NAS device (92%), VxWorks (92%), Canon imageRUNNER C2380 or C2880i or Xerox Phaser 8860MFP printer (90%), Avaya 4526GTX switch (89%), Nortel CS1000M VoIP PBX or Xerox Phaser 8560DT printer (88%), HP ProCurve 3500yl, 5406zl, or 6200yl switch or UTStarcom F1000 VoIP phone (87%), Nortel Ethernet Routing Switch 4550T-PWR (87%), Avaya 4000- or 5000-series Ethernet Routing switch (86%), VxWorks 5.5 (86%)",
+            "Device Type": "Printer"
         },
         {
             "host": "10.0.0.142",
             "OS": "Linux 2.6.32 - 3.5",
-            "Device Type": "general purpose"
+            "Device Type": "Camera(Video Conferencing Systems)"
         },
         {
             "host": "10.0.0.152",
             "OS": "Linux 2.6.32 - 3.5",
-            "Device Type": "general purpose"
+            "Device Type": "Camera(Video Conferencing Systems)"
+        },
+        {
+            "host": "10.0.0.205",
+            "OS": "Unknown",
+            "Device Type": "Unknown"
         },
         {
             "host": "10.0.0.243",
             "OS": "Citrix Access Gateway VPN gateway, Linksys WRT610Nv3 WAP",
-            "Device Type": "proxy server|WAP"
+            "Device Type": "Unknown"
         },
         {
             "host": "10.0.0.248",
@@ -33,12 +38,12 @@
         {
             "host": "10.0.0.253",
             "OS": "Unknown",
-            "Device Type": "Unknown"
+            "Device Type": "Jetdirect(Allows computer printers to be directly attached to a local area network)"
         },
         {
             "host": "10.0.0.83",
             "OS": "Microsoft Windows 10 1607",
-            "Device Type": "general purpose"
+            "Device Type": "Personal Computer"
         }
     ]
 }

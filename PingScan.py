@@ -27,12 +27,12 @@ def parse_nmap_output(output):
             host = line.split(" ")[-1]
             if "(" in host and ")" in host:
                 host = host[host.find("(")+1:host.find(")")]
-            host_info = {"host": host, "status": "up", "type": "Unknown"}
+            host_info = {"host": host, "status": "up", "manufacturer": "Unknown"}
         elif "MAC Address:" in line:
             parts = line.split(" ", 3)
             if len(parts) > 2:
                 host_info["mac"] = parts[2]
-                host_info["type"] = parts[3].strip("()") if len(parts) == 4 else "Unknown"
+                host_info["manufacturer"] = parts[3].strip("()") if len(parts) == 4 else "Unknown"
     if host_info:
         scan_results["hosts"].append(host_info)
     
