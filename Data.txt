@@ -1,0 +1,893 @@
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+MAC Address: 80:65:7C:DE:83:F8 (Apple)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.65 seconds
+
+OS Scanning for 10.15.149.124
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:51 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-124.wireless.pacific.edu (10.15.149.124)
+Host is up (0.0058s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 9E:D1:0E:07:36:C6 (Unknown)
+Device type: general purpose|media device|phone
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple OS X 10.11.X (93%), Apple iOS 12.X|13.X|11.X (93%)
+OS CPE: cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (92%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (92%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.24 seconds
+
+OS Scanning for 10.15.149.127
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:51 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-127.wireless.pacific.edu (10.15.149.127)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-127.wireless.pacific.edu (10.15.149.127) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: FA:2E:61:B1:EF:15 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.72 seconds
+
+OS Scanning for 10.15.149.128
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:51 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-128.wireless.pacific.edu (10.15.149.128)
+Host is up (0.0048s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 46:79:FD:D0:A3:20 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X|12.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (92%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.07 seconds
+
+OS Scanning for 10.15.149.129
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:51 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-129.wireless.pacific.edu (10.15.149.129)
+Host is up (0.0042s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: C6:C7:A5:9F:84:96 (Unknown)
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (92%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (90%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (90%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (90%), Apple TV 5.2.1 or 5.3 (90%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (89%), DragonFly BSD 4.6-RELEASE (87%), Apple iPad tablet computer (iOS 4.3.2) (87%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (87%), Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.89 seconds
+
+OS Scanning for 10.15.149.132
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:51 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-132.wireless.pacific.edu (10.15.149.132)
+Host is up (0.035s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 9E:C0:9A:AC:55:7D (Unknown)
+Device type: general purpose|media device|phone
+Running (JUST GUESSING): Apple macOS 11.X|10.15.X|10.13.X|10.14.X (95%), Apple OS X 10.11.X (93%), Apple iOS 12.X|13.X|11.X (93%)
+OS CPE: cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (91%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (91%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.56 seconds
+
+OS Scanning for 10.15.149.135
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:51 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-135.wireless.pacific.edu (10.15.149.135)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-135.wireless.pacific.edu (10.15.149.135) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 36:10:20:CE:C5:54 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.68 seconds
+
+OS Scanning for 10.15.149.137
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:52 Pacific Standard Time
+Warning: 10.15.149.137 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-137.wireless.pacific.edu (10.15.149.137)
+Host is up (0.0081s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE    SERVICE
+5000/tcp  open     upnp
+7000/tcp  open     afs3-fileserver
+63331/tcp filtered unknown
+MAC Address: 74:A6:CD:D6:16:FD (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.68 seconds
+
+OS Scanning for 10.15.149.140
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:52 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-140.wireless.pacific.edu (10.15.149.140)
+Host is up (0.021s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 1E:AF:DE:F0:05:F1 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (95%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (92%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (91%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.03 seconds
+
+OS Scanning for 10.15.149.141
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:52 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-141.wireless.pacific.edu (10.15.149.141)
+Host is up (0.017s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: AE:20:A6:3D:D1:63 (Unknown)
+Device type: general purpose|media device|phone
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (95%), Apple OS X 10.11.X (92%), Apple iOS 12.X|13.X|11.X (92%)
+OS CPE: cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (91%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (91%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (91%), Apple iOS 6.1.4 (Darwin 13.0.0) (90%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (89%), Apple iOS 4.0 (89%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.04 seconds
+
+OS Scanning for 10.15.149.143
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:52 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-143.wireless.pacific.edu (10.15.149.143)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-143.wireless.pacific.edu (10.15.149.143) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 64:6E:E0:F0:07:EE (Intel Corporate)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.17 seconds
+
+OS Scanning for 10.15.149.150
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:53 Pacific Standard Time
+Warning: 10.15.149.150 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-150.wireless.pacific.edu (10.15.149.150)
+Host is up (0.020s latency).
+All 1000 scanned ports on dhcp-10-15-149-150.wireless.pacific.edu (10.15.149.150) are in ignored states.
+Not shown: 941 closed tcp ports (reset), 59 filtered tcp ports (no-response)
+MAC Address: C0:E4:34:78:6E:7F (AzureWave Technology)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 26.92 seconds
+
+OS Scanning for 10.15.149.151
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:53 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-151.wireless.pacific.edu (10.15.149.151)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-151.wireless.pacific.edu (10.15.149.151) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: C0:95:6D:3C:90:9C (Apple)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|VoIP phone
+Running: Dell embedded, Grandstream embedded
+OS CPE: cpe:/h:dell:powerconnect_2708 cpe:/h:grandstream:gxp2000
+OS details: Dell PowerConnect 2708 switch, Grandstream GXP2000 VoIP phone, Grandstream GXP2020 VoIP phone
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.99 seconds
+
+OS Scanning for 10.15.149.153
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:53 Pacific Standard Time
+Warning: 10.15.149.153 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-153.wireless.pacific.edu (10.15.149.153)
+Host is up (0.0043s latency).
+Not shown: 768 closed tcp ports (reset), 231 filtered tcp ports (no-response)        
+PORT      STATE SERVICE
+49152/tcp open  unknown
+MAC Address: C6:00:7E:A4:57:C2 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 57.71 seconds
+
+OS Scanning for 10.15.149.154
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:54 Pacific Standard Time
+Warning: 10.15.149.154 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-154.wireless.pacific.edu (10.15.149.154)
+Host is up (0.0089s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5000/tcp open     upnp
+7000/tcp open     afs3-fileserver
+8701/tcp filtered unknown
+MAC Address: D0:88:0C:77:EA:66 (Apple)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (95%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (91%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.79 seconds
+
+OS Scanning for 10.15.149.155
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:54 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-155.wireless.pacific.edu (10.15.149.155)
+Host is up (0.0050s latency).
+All 1000 scanned ports on dhcp-10-15-149-155.wireless.pacific.edu (10.15.149.155) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 26:D3:C4:79:D6:35 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.75 seconds
+
+OS Scanning for 10.15.149.170
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:55 Pacific Standard Time
+Warning: 10.15.149.170 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-170.wireless.pacific.edu (10.15.149.170)
+Host is up (0.0051s latency).
+Not shown: 908 closed tcp ports (reset), 90 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 32:55:93:BF:99:6A (Unknown)
+Device type: phone|general purpose|media device
+Running (JUST GUESSING): Apple iOS 11.X|12.X|13.X (93%), Apple macOS 10.13.X|10.14.X|10.15.X|11.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%), Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 25.70 seconds
+
+OS Scanning for 10.15.149.171
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:55 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-171.wireless.pacific.edu (10.15.149.171)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-171.wireless.pacific.edu (10.15.149.171) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: A0:29:42:36:30:EE (Intel Corporate)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.70 seconds
+
+OS Scanning for 10.15.149.181
+Error executing nmap for 10.15.149.181: WARNING: RST from 10.15.149.181 port 49154 -- is this port really open?
+WARNING: RST from 10.15.149.181 port 49154 -- is this port really open?
+WARNING: RST from 10.15.149.181 port 49154 -- is this port really open?
+
+OS Scanning for 10.15.149.182
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:56 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-182.wireless.pacific.edu (10.15.149.182)
+Host is up (0.017s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 9A:C8:19:DD:DD:EB (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X|12.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (92%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.11 seconds
+
+OS Scanning for 10.15.149.183
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:56 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-183.wireless.pacific.edu (10.15.149.183)
+Host is up (0.0073s latency).
+All 1000 scanned ports on dhcp-10-15-149-183.wireless.pacific.edu (10.15.149.183) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: A4:C6:F0:1F:81:48 (Apple)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|VoIP phone
+Running: Dell embedded, Grandstream embedded
+OS CPE: cpe:/h:dell:powerconnect_2708 cpe:/h:grandstream:gxp2000
+OS details: Dell PowerConnect 2708 switch, Grandstream GXP2000 VoIP phone, Grandstream GXP2020 VoIP phone
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.90 seconds
+
+OS Scanning for 10.15.149.184
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:57 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-184.wireless.pacific.edu (10.15.149.184)
+Host is up (0.012s latency).
+All 1000 scanned ports on dhcp-10-15-149-184.wireless.pacific.edu (10.15.149.184) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 30:05:05:72:24:C8 (Intel Corporate)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.59 seconds
+
+OS Scanning for 10.15.149.187
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:57 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-187.wireless.pacific.edu (10.15.149.187)
+Host is up (0.011s latency).
+All 1000 scanned ports on dhcp-10-15-149-187.wireless.pacific.edu (10.15.149.187) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 6C:7E:67:CC:62:59 (Apple)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|VoIP phone
+Running: Dell embedded, Grandstream embedded
+OS CPE: cpe:/h:dell:powerconnect_2708 cpe:/h:grandstream:gxp2000
+OS details: Dell PowerConnect 2708 switch, Grandstream GXP2000 VoIP phone, Grandstream GXP2020 VoIP phone
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.91 seconds
+
+OS Scanning for 10.15.149.188
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:57 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-188.wireless.pacific.edu (10.15.149.188)
+Host is up (0.017s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 1E:D4:78:21:D5:2E (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (95%), Apple iOS 11.X|12.X|13.X (92%), Apple OS X 10.11.X (92%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (92%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (92%), Apple iOS 6.1.4 (Darwin 13.0.0) (90%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iOS 6.1.2 (89%), Apple iPad tablet computer (iOS 4.3.2) (89%), Apple iOS 4.0 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.85 seconds
+
+OS Scanning for 10.15.149.190
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:57 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-190.wireless.pacific.edu (10.15.149.190)
+Host is up (0.0020s latency).
+All 1000 scanned ports on dhcp-10-15-149-190.wireless.pacific.edu (10.15.149.190) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 1A:B6:11:4D:88:F1 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.93 seconds
+
+OS Scanning for 10.15.149.194
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:58 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-194.wireless.pacific.edu (10.15.149.194)
+Host is up (0.0066s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+49159/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 26:C7:DF:5E:46:D7 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X|12.X (95%), Apple iOS 11.X|12.X|13.X (92%), Apple OS X 10.11.X (91%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (92%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (92%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (91%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple TV 5 (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple Mac OSNo exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.01 seconds
+
+OS Scanning for 10.15.149.197
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:58 Pacific Standard Time
+Stats: 0:00:06 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 24.75% done; ETC: 10:58 (0:00:21 remaining)
+Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 27.45% done; ETC: 10:58 (0:00:21 remaining)
+Stats: 0:00:09 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 35.25% done; ETC: 10:58 (0:00:17 remaining)
+Warning: 10.15.149.197 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-197.wireless.pacific.edu (10.15.149.197)
+Host is up (0.049s latency).
+All 1000 scanned ports on dhcp-10-15-149-197.wireless.pacific.edu (10.15.149.197) are in ignored states.
+Not shown: 777 filtered tcp ports (no-response), 223 closed tcp ports (reset)
+MAC Address: B6:C3:6A:92:B1:C7 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.43 seconds
+
+OS Scanning for 10.15.149.199
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 10:59 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-199.wireless.pacific.edu (10.15.149.199)
+Host is up (0.0060s latency).
+All 1000 scanned ports on dhcp-10-15-149-199.wireless.pacific.edu (10.15.149.199) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 26:CB:ED:56:74:9E (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.81 seconds
+
+OS Scanning for 10.15.149.204
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:00 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-204.wireless.pacific.edu (10.15.149.204)
+Host is up (0.010s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 86:17:04:DD:18:D7 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (95%), Apple iOS 11.X|12.X|13.X (92%), Apple OS X 10.11.X (92%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (92%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (92%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), Apple iOS 6.1.4 (Darwin 13.0.0) (90%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iOS 6.1.2 (89%), Apple iPad tablet computer (iOS 4.3.2) (89%), Apple iOS 4.0 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 4.99 seconds
+
+OS Scanning for 10.15.149.207
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:00 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-207.wireless.pacific.edu (10.15.149.207)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-207.wireless.pacific.edu (10.15.149.207) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: C8:89:F3:C4:F4:E6 (Apple)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|VoIP phone
+Running: Dell embedded, Grandstream embedded
+OS CPE: cpe:/h:dell:powerconnect_2708 cpe:/h:grandstream:gxp2000
+OS details: Dell PowerConnect 2708 switch, Grandstream GXP2000 VoIP phone, Grandstream GXP2020 VoIP phone
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.98 seconds
+
+OS Scanning for 10.15.149.209
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:00 Pacific Standard Time
+Warning: 10.15.149.209 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-209.wireless.pacific.edu (10.15.149.209)
+Host is up (0.14s latency).
+Not shown: 963 closed tcp ports (reset), 34 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+49154/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: DE:A2:89:4D:20:F3 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (95%), Apple iOS 11.X|12.X|13.X (92%), Apple OS X 10.11.X (92%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (92%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (92%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (91%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.75 seconds
+
+OS Scanning for 10.15.149.210
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:00 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-210.wireless.pacific.edu (10.15.149.210)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-210.wireless.pacific.edu (10.15.149.210) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 7C:21:4A:DD:CF:B1 (Intel Corporate)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.68 seconds
+
+OS Scanning for 10.15.149.211
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:01 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-211.wireless.pacific.edu (10.15.149.211)
+Host is up (0.0010s latency).
+All 1000 scanned ports on dhcp-10-15-149-211.wireless.pacific.edu (10.15.149.211) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 7E:D2:AA:5A:28:B0 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.86 seconds
+
+OS Scanning for 10.15.149.212
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:01 Pacific Standard Time
+Warning: 10.15.149.212 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-212.wireless.pacific.edu (10.15.149.212)
+Host is up (0.0070s latency).
+Not shown: 603 filtered tcp ports (no-response), 396 closed tcp ports (reset)
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: C8:F6:50:ED:C3:47 (Apple)
+OS fingerprint not ideal because: Timing level 5 (Insane) used
+No OS matches for host
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 91.57 seconds
+
+OS Scanning for 10.15.149.221
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:02 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-221.wireless.pacific.edu (10.15.149.221)
+Host is up (0.020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+49154/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 46:34:16:58:CF:32 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.81 seconds
+
+OS Scanning for 10.15.149.222
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:03 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-222.wireless.pacific.edu (10.15.149.222)
+Host is up (0.0048s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 4A:EC:3F:97:98:96 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.51 seconds
+
+OS Scanning for 10.15.149.226
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:03 Pacific Standard Time
+Nmap done: 1 IP address (0 hosts up) scanned in 1.83 seconds
+
+OS Scanning for 10.15.149.227
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:03 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-227.wireless.pacific.edu (10.15.149.227)
+Host is up (0.050s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: EA:2A:DD:DE:5E:A7 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|12.X|10.15.X (92%), Apple iOS 6.X|12.X|13.X|11.X (90%), Apple OS X 10.11.X (90%)
+OS CPE: cpe:/o:apple:iphone_os:6.1.4 cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (92%), Apple iOS 6.1.4 (Darwin 13.0.0) (90%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (90%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (90%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (90%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (89%), Apple Mac OS X 10.5.4 (Leopard) (Darwin 9.4.0) (89%), FreeBSD 7.0-CURRENT (pre-release) (89%), Apple iPhone mobile phone (iPhone OS 2.1) (88%), Apple Mac OS X 10.4.10 (Tiger) (Darwin 8.10.0, PowerPC) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 9.19 seconds
+
+OS Scanning for 10.15.149.228
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:03 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-228.wireless.pacific.edu (10.15.149.228)
+Host is up (0.020s latency).
+All 1000 scanned ports on dhcp-10-15-149-228.wireless.pacific.edu (10.15.149.228) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 14:7D:DA:4F:42:32 (Apple)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|firewall|phone|remote management|general purpose
+Running (JUST GUESSING): Cisco NX-OS 5.X (97%), Cisco ASA 8.X (91%), Apple iOS 10.X|9.X (89%), Cisco embedded (89%), FreeBSD 8.X (87%)
+OS CPE: cpe:/o:cisco:nexus_5548p cpe:/o:cisco:nx_os:5.1 cpe:/a:cisco:adaptive_security_appliance_software:8.4 cpe:/o:apple:iphone_os:10 cpe:/o:apple:iphone_os:9.3.2 cpe:/o:freebsd:freebsd:8.0
+Aggressive OS guesses: Cisco Nexus 5548P switch (NX-OS 5.1) (97%), Cisco Adaptive Security Appliance (ASA 8.4) (91%), Apple iOS 10 (89%), Apple iOS 9.3.2 (Darwin 15.5.0) (89%), Cisco Wireless LAN controller (89%), Cisco Nexus 7010 switch (NX-OS 5) (89%), Cisco Nexus 7010 switch (NX-OS 5.1(2)) (89%), Cisco Nexus switch (NX-OS 5.1(3)) (89%), FreeBSD 8.0-RC1-p1 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.93 seconds
+
+OS Scanning for 10.15.149.229
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:03 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-229.wireless.pacific.edu (10.15.149.229)
+Host is up (0.0069s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: E2:DD:0A:C8:DF:67 (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X|12.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (92%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (92%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.36 seconds
+
+OS Scanning for 10.15.149.231
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:04 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-231.wireless.pacific.edu (10.15.149.231)
+Host is up (0.0046s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 7A:9A:AF:A4:13:AE (Unknown)
+Device type: general purpose|media device|phone
+Running (JUST GUESSING): Apple OS X 10.11.X (93%), Apple iOS 12.X|13.X|11.X (93%), Apple macOS 11.X|10.15.X|10.13.X|10.14.X (92%)
+OS CPE: cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14     
+Aggressive OS guesses: Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.6.0) (92%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (91%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%), Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 4.83 seconds
+
+OS Scanning for 10.15.149.235
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:04 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-235.wireless.pacific.edu (10.15.149.235)
+Host is up (0.0072s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+49154/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 22:1D:78:A7:80:2F (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.41 seconds
+
+OS Scanning for 10.15.149.236
+Error executing nmap for 10.15.149.236: WARNING: RST from 10.15.149.236 port 49152 -- is this port really open?
+WARNING: RST from 10.15.149.236 port 49152 -- is this port really open?
+
+OS Scanning for 10.15.149.237
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:05 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-237.wireless.pacific.edu (10.15.149.237)
+Host is up (0.022s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+MAC Address: BC:D0:74:F1:7B:F6 (Apple)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (92%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.57 seconds
+
+OS Scanning for 10.15.149.238
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:05 Pacific Standard Time
+Warning: 10.15.149.238 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-238.wireless.pacific.edu (10.15.149.238)
+Host is up (0.013s latency).
+Not shown: 782 closed tcp ports (reset), 216 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 96:A2:64:A6:A8:07 (Unknown)
+Device type: phone|general purpose|media device
+Running (JUST GUESSING): Apple iOS 11.X|12.X|13.X (93%), Apple macOS 10.13.X|10.14.X|10.15.X|11.X (93%), Apple Apple TV 5.X (92%), Apple OS X 10.11.X (90%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:apple_tv:5 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.6.0) (93%), Apple TV 5 (92%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (90%), Apple OS X 10.11 (El Capitan) - 10.12 (Sierra) or iOS 10.1 - 10.2 (Darwin 15.4.0 - 16.6.0) (90%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (90%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (90%), Apple TV 5.2.1 or 5.3 (90%), FreeBSD 11.1-STABLE (90%), Apple Mac OS X 10.6.5 (Snow Leopard) (Darwin 10.5.0) (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 50.01 seconds
+
+OS Scanning for 10.15.149.240
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:06 Pacific Standard Time
+Warning: 10.15.149.240 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-240.wireless.pacific.edu (10.15.149.240)
+Host is up (0.013s latency).
+Not shown: 939 closed tcp ports (reset), 59 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 56:B6:4F:99:0C:AD (Unknown)
+Device type: general purpose|phone|media device
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X|10.15.X (96%), Apple iOS 11.X|12.X|13.X (93%), Apple OS X 10.11.X (93%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (96%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 27.84 seconds
+
+OS Scanning for 10.15.149.242
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:06 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-242.wireless.pacific.edu (10.15.149.242)
+Host is up (0.018s latency).
+All 1000 scanned ports on dhcp-10-15-149-242.wireless.pacific.edu (10.15.149.242) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 36:C3:64:0C:1B:CC (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 23.33 seconds
+
+OS Scanning for 10.15.149.244
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:07 Pacific Standard Time
+Warning: 10.15.149.244 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-244.wireless.pacific.edu (10.15.149.244)
+Host is up (0.0076s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT      STATE    SERVICE
+9/tcp     filtered discard
+20/tcp    filtered ftp-data
+119/tcp   filtered nntp
+545/tcp   filtered ekshell
+1079/tcp  filtered asprovatalk
+1110/tcp  filtered nfsd-status
+1154/tcp  filtered resacommunity
+2000/tcp  filtered cisco-sccp
+3261/tcp  filtered winshadow
+4443/tcp  filtered pharos
+5801/tcp  filtered vnc-http-1
+6100/tcp  filtered synchronet-db
+9666/tcp  filtered zoomcp
+9943/tcp  filtered unknown
+12174/tcp filtered unknown
+15742/tcp filtered unknown
+32785/tcp filtered unknown
+44176/tcp filtered unknown
+49152/tcp open     unknown
+49156/tcp open     unknown
+50000/tcp filtered ibm-db2
+61532/tcp filtered unknown
+62078/tcp open     iphone-sync
+MAC Address: D6:E8:5B:6E:4F:92 (Unknown)
+Device type: phone|general purpose|media device
+Running (JUST GUESSING): Apple iOS 11.X|12.X|13.X (93%), Apple macOS 10.13.X|10.14.X|10.15.X|11.X (93%), Apple Apple TV 5.X (92%), Apple OS X 10.11.X (90%)
+OS CPE: cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14 cpe:/o:apple:mac_os_x:10.15 cpe:/o:apple:apple_tv:5 cpe:/o:apple:mac_os_x:10.11
+Aggressive OS guesses: Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.6.0) (93%), Apple TV 5 (92%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (90%), Apple OS X 10.11 (El Capitan) - 10.12 (Sierra) or iOS 10.1 - 10.2 (Darwin 15.4.0 - 16.6.0) (90%), Apple macOS 12 (Monterey) (Darwin 21.6.0) (90%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (90%), Apple TV 5.2.1 or 5.3 (89%), FreeBSD 11.0-STABLE (89%), FreeBSD 11.1-STABLE (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.43 seconds
+
+OS Scanning for 10.15.149.245
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:07 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-245.wireless.pacific.edu (10.15.149.245)
+Host is up (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+88/tcp   open  kerberos-sec
+445/tcp  open  microsoft-ds
+5000/tcp open  upnp
+5900/tcp open  vnc
+7000/tcp open  afs3-fileserver
+MAC Address: A0:78:17:AA:29:C5 (Apple)
+Device type: general purpose|media device|phone
+Running (JUST GUESSING): Apple macOS 11.X|10.15.X|10.13.X|10.14.X (95%), Apple OS X 10.11.X (93%), Apple iOS 12.X|13.X|11.X (93%)
+OS CPE: cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14     
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (95%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (93%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (92%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.08 seconds
+
+OS Scanning for 10.15.149.249
+Error executing nmap for 10.15.149.249: WARNING: RST from 10.15.149.249 port 49152 -- is this port really open?
+WARNING: RST from 10.15.149.249 port 49152 -- is this port really open?
+
+OS Scanning for 10.15.149.252
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:09 Pacific Standard Time
+Warning: 10.15.149.252 giving up on port because retransmission cap hit (2).
+Nmap scan report for dhcp-10-15-149-252.wireless.pacific.edu (10.15.149.252)
+Host is up (0.0043s latency).
+Not shown: 740 closed tcp ports (reset), 259 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+62078/tcp open  iphone-sync
+MAC Address: C6:7A:1E:D7:64:A9 (Unknown)
+Device type: general purpose|media device|phone
+Running (JUST GUESSING): Apple macOS 11.X|10.13.X|10.14.X (92%), Apple OS X 10.11.X (90%), Apple iOS 12.X|13.X|11.X (90%), Apple Apple TV 5.X (90%)
+OS CPE: cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/a:apple:apple_tv:5.2.1 cpe:/a:apple:apple_tv:5.3 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (92%), Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (90%), Apple TV 5.2.1 or 5.3 (90%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (89%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (89%), Apple macOS 11 (Big Sur) (Darwin 20.5.0) (89%), VMware ESX Server 3.0.0 - 3.5.0 (88%), Apple iPad tablet computer (iOS 4.3.2) (87%), Apple iOS 4.0 (87%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 66.96 seconds
+
+OS Scanning for 10.15.149.253
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:10 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-253.wireless.pacific.edu (10.15.149.253)
+Host is up (0.0067s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: C6:5A:15:F9:F8:D5 (Unknown)
+Device type: general purpose|media device|phone
+Running (JUST GUESSING): Apple OS X 10.11.X (93%), Apple iOS 12.X|13.X|11.X (93%), Apple macOS 10.15.X|10.13.X|10.14.X|11.X (93%)
+OS CPE: cpe:/o:apple:mac_os_x:10.11 cpe:/o:apple:iphone_os:12 cpe:/o:apple:iphone_os:11 cpe:/o:apple:iphone_os:13 cpe:/o:apple:mac_os_x:10.13 cpe:/o:apple:mac_os_x:10.14     
+Aggressive OS guesses: Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0) (93%), Apple macOS 10.15 (Catalina) (Darwin 19.6.0) (93%), Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0) (92%), Apple macOS 11 (Big Sur) (Darwin 20.6.0) (92%), VMware ESX Server 3.0.0 - 3.5.0 (90%), Apple iPad tablet computer (iOS 4.3.2) (90%), Apple iOS 4.0 (90%), Apple iPad tablet computer or iPhone mobile phone (iOS 4.0 - 4.1) (90%), Apple iPhone mobile phone (iOS 4.3.2) (90%), Apple Mac OS X 10.5 (Leopard) - 10.6.8 (Snow Leopard) or iOS 4.0 - 4.2.1 (Darwin 9.0.0b5 - 10.8.0) (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.78 seconds
+
+OS Scanning for 10.15.149.185
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-05 11:10 Pacific Standard Time
+Nmap scan report for dhcp-10-15-149-185.wireless.pacific.edu (10.15.149.185)
+Host is up (0.00042s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1042/tcp open  afrog
+1043/tcp open  boinc
+5357/tcp open  wsdapi
+Device type: general purpose
+Running: Microsoft Windows 11
+OS details: Microsoft Windows 11 21H2
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.46 seconds

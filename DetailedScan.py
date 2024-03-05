@@ -13,7 +13,7 @@ def run_device_scan(ip_addresses):
     scan_results = {'hosts': []}
     for ip in ip_addresses:
         print(f"OS Scanning for {ip}")
-        command = ["nmap", "-O", ip]
+        command = ["nmap", "-O", "-Pn", "-T5", ip]
         try:
             result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
             if result.stderr:
