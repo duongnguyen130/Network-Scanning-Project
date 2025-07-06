@@ -1,25 +1,25 @@
 def identify_type(output):
-    lines = output.split("\n")
-    device_type = "Unknown"  # Default value if no specific type is identified
-    
+    """
+    Identifies the device type from nmap scan output.
+    Returns a string like "Printer", "Switch/Router", "Personal Computer", etc.
+    """
+    lines = output.splitlines()
+    device_type = "Unknown"
+
     for line in lines:
-        if "telnet" in line or "23/tcp" in line:  # Detect Switches and Routers
-            device_type = "Switch/Router"
-            break
-        elif "printer" in line.lower():  # Detect printers
-            device_type = "Printer"
-            break 
-        elif "Microsoft Windows" in line:  # Detect Windows OS
-            device_type = "Personal Computer"
-            break 
-        elif "iphone" in line or "Iphone" in line:  # Detect Windows OS
-            device_type = "Apple Iphone"
-            break 
-        elif "jetdirect" in line:  # Detect jetdirect
-            device_type = "Jetdirect(Allows computer printers to be directly attached to a local area network)"
-            break 
-        elif "h323hostcall" in line:  # Detect jetdirect
-            device_type = "Camera(Video Conferencing Systems)"
-            break 
+        lower_line = line.lower()
+
+        if "telnet" in lower_line or "23/tcp" in lower_line:
+            return "Switch/Router"
+        elif "printer" in lower_line:
+            return "Printer"
+        elif "microsoft windows" in lower_line:
+            return "Personal Computer"
+        elif "iphone" in lower_line:
+            return "Apple iPhone"
+        elif "jetdirect" in lower_line:
+            return "Jetdirect (LAN-connected printer)"
+        elif "h323hostcall" in lower_line:
+            return "Camera (Video Conferencing System)"
 
     return device_type
