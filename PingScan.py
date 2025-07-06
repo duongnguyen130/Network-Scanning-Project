@@ -1,50 +1,73 @@
-import subprocess
 import json
+import subprocess
 import sys
+import OSFind
+import TypeFind
 
-def run_ping_scan(target):
-    command = ["nmap", "-sP", target]
-    
+def read_ip_addresses(filename='PingScanResult.json'):
+    """
+    Reads IP addresses from a JSON file.
+    """
     try:
-        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        if result.stderr:
-            print("Error executing nmap:", result.stderr)
-            sys.exit(1)
-        return result.stdout
-    except Exception as e:
-        print("An error occurred while executing nmap:", str(e))
-        sys.exit(1)
+        with open(filename, 'r') as file:
+            data = json.load(file)
+        return [host['host'] for host in data.get('hosts', [])]
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"[ERROR] Failed to read {filename}: {e}")
+        return []
 
-def parse_nmap_output(output):
-    scan_results = {"hosts": []}
-    lines = output.split("\n")
-    host_info = {}
-    for line in lines:
-        if "Nmap scan report for" in line:
-            if host_info: 
-                scan_results["hosts"].append(host_info)
-                host_info = {}
-            host = line.split(" ")[-1]
-            if "(" in host and ")" in host:
-                host = host[host.find("(")+1:host.find(")")]
-            host_info = {"host": host, "status": "up", "manufacturer": "Unknown"}
-        elif "MAC Address:" in line:
-            parts = line.split(" ", 3)
-            if len(parts) > 2:
-                host_info["mac"] = parts[2]
-                host_info["manufacturer"] = parts[3].strip("()") if len(parts) == 4 else "Unknown"
-    if host_info:
-        scan_results["hosts"].append(host_info)
-    
+def run_device_scan(ip_addresses):
+    """
+    Runs OS detection on each IP address using nmap.
+    """
+    scan_results = {'hosts': []}
+    for ip in ip_addresses:
+        print(f"[INFO] Scanning {ip} for OS...")
+        command = ["nmap", "-O", "-Pn", "-T5", ip]
+        try:
+            result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            if result.returncode != 0:
+                print(f"[ERROR] nmap scan failed for {ip}:\n{result.stderr.strip()}")
+                continue
+            print(f"[INFO] nmap output for {ip}:\n{result.stdout}")
+            scan_results['hosts'].append(parse_nmap_output(ip, result.stdout))
+        except Exception as e:
+            print(f"[EXCEPTION] Error scanning {ip}: {e}")
     return scan_results
 
-def save_results(scan_results, filename='PingScanResult.json'): #Save result to a JSON file
-    with open(filename, 'w') as file:
-        json.dump(scan_results, file, indent=4)
-    print(f"Ping scan results saved to {filename}")
+def parse_nmap_output(ip, output):
+    """
+    Extracts OS and device type information from nmap output.
+    """
+    os_info = OSFind.identify_OS(output)
+    device_type = TypeFind.identify_type(output)
+    return {
+        "host": ip,
+        "OS": os_info,
+        "Device Type": device_type
+    }
 
-def pingScan():
-    target = input("Enter the target IP(e.g., '192.168.1.0/24'): ")
-    output = run_ping_scan(target)
-    scan_results = parse_nmap_output(output)
+def save_results(scan_results, filename='OSScanResult.json'):
+    """
+    Saves the scan results to a JSON file.
+    """
+    try:
+        with open(filename, 'w') as file:
+            json.dump(scan_results, file, indent=4)
+        print(f"[SUCCESS] Results saved to {filename}")
+    except IOError as e:
+        print(f"[ERROR] Failed to save results: {e}")
+
+def detailedScan():
+    """
+    Runs the full scan process: read IPs → scan → save results.
+    """
+    ip_addresses = read_ip_addresses()
+    if not ip_addresses:
+        print("[ERROR] No IP addresses found to scan.")
+        sys.exit(1)
+    scan_results = run_device_scan(ip_addresses)
     save_results(scan_results)
+
+if __name__ == "__main__":
+    detailedScan()
