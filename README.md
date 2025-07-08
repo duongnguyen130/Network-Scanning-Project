@@ -72,8 +72,8 @@ npm run serve
 
 This is the **backend** for the Network Scanning project. It provides REST APIs for:
 
-- Ping scan (Device Discovery)
-- Detailed scan
+- Ping scan (Hosts Discovery)
+- Detailed scan (Devices Discovery)
 
 ## ⚙️ Tech Stack
 
