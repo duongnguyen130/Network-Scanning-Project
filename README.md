@@ -1,99 +1,134 @@
+# Network Scanning Project
 
-#  Network Scanning Project
+## Frontend
 
-This Python-based project automates network scanning using `nmap`. It performs:
+# 🌐 Network Scanning Admin UI (Frontend)
 
-1. **Ping Scan** to discover active hosts
-2. **Detailed Scan** to detect operating systems and classify device types
+This is the **frontend** of the Network Scanning project, built using **Vue 3**, **Vite**, and **Tailwind CSS**.
 
----
+## 🧱 Features
 
-##  Project Files
+- Sidebar navigation with routing
+- Dashboard for initiating network scans
+- Device Discovery (Ping Scan)
+- Detailed Network Scan
+- Result tables for each scan
+- Responsive and clean UI
+
+## 📁 Project Structure
 
 ```
+frontend/
+├── index.html
+├── package.json
+├── vite.config.js
+├── postcss.config.js
+├── tailwind.config.js
+├── /public
+├── /src
+│   ├── main.js
+│   ├── App.vue
+│   ├── /assets
+│   │   └── tailwind.css, logo.png
+│   ├── /components
+│   │   ├── Sidebar.vue
+│   │   ├── Dashboard.vue
+│   │   ├── DeviceDiscovery.vue
+│   │   └── DetailedScan.vue
+│   └── /router
+│       └── index.js
+```
 
-PingScan.py           # Runs ping scan and saves live hosts
-DetailedScan.py       # Detects OS and device type using nmap -O
-OSFind.py             # Parses OS info from nmap output
-TypeFind.py           # Parses device type from nmap output
-network\_scan.py       # Main script that runs both scans
-PingScanResult.json   # Output: active IPs from ping scan
-OSScanResult.json     # Output: OS and device type per host
-README.md             # This documentation
-
-````
-
----
-
-## How It Works
-
-- **PingScan.py** uses `nmap -sP` to find live hosts
-- **DetailedScan.py** uses `nmap -O -Pn` to detect OS
-- Results are stored in structured JSON format
-
----
-
-## Usage
+## 🚀 Getting Started
 
 ```bash
-python network_scan.py
-````
+cd frontend
+npm install
+npm run dev
+```
 
-1. You’ll be asked to enter a subnet (e.g., `192.168.1.0/24`)
-2. The script runs both scans
-3. Results are saved in:
+Visit: http://localhost:5173
 
-   * `PingScanResult.json`
-   * `OSScanResult.json`
+## 🛠 Build for Production
 
----
-
-## Requirements
-
-* Python 3.6+
-* `nmap` must be installed and in your system PATH
-
----
-
-## Example Output (OSScanResult.json)
-
-```json
-{
-  "host": "10.15.149.185",
-  "OS": "Microsoft Windows 11 21H2",
-  "Device Type": "Personal Computer"
-}
+```bash
+npm run build
+npm run serve
 ```
 
 ---
 
-## .gitignore Recommendation
+## 📦 Technologies
+
+- Vue 3
+- Vite
+- Tailwind CSS
+- Vue Router
+- Axios
+
+## Backend
+
+# 🔧 Network Scanning API (Backend)
+
+This is the **backend** for the Network Scanning project. It provides REST APIs for:
+
+- Ping scan (Device Discovery)
+- Detailed scan
+
+## ⚙️ Tech Stack
+
+- Python 3.10+
+- Django or Flask (based on your setup)
+- nmap / scapy for scanning (optional)
+- Django REST Framework or Flask-Restful
+
+## 📁 Project Structure (Django example)
 
 ```
-# Results
-PingScanResult.json
-OSScanResult.json
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Logs and environments
-*.log
-.env
-.venv/
+backend/
+├── manage.py
+├── requirements.txt
+├── /backend
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── /scanner
+│   ├── views.py
+│   ├── urls.py
+│   └── detailed_scan.py
+│   └── ping_scan.py
+│   └── type_find.py
+│   └── os_find.py
+  
 ```
+
+## 🚀 Getting Started
+
+```bash
+cd backend
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install -r requirements.txt
+python manage.py runserver
+```
+
+APIs will be available at: http://localhost:8000/api/
+
+## 🔍 API Endpoints
+
+- `/api/ping-scan/` → Device Discovery
+- `/api/detailed-scan/` → Detailed Network Scan
 
 ---
 
-## 👤 Author
+## ✅ Dependencies
 
-Chi Ngo
+Include in `requirements.txt`:
 
----
-
-## License
-
-MIT License – Free to use, modify, and distribute.
-
-
+```
+Django>=4.0
+djangorestframework
+python-nmap
+```
