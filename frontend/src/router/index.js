@@ -5,8 +5,8 @@ import DetailedScan from '../components/DetailedScan.vue'
 
 const routes = [
   { path: '/', component: Dashboard },
-  { path: '/discovery', component: DeviceDiscovery },
-  { path: '/detailed', component: DetailedScan },
+  { path: '/device-discovery', component: DeviceDiscovery },
+  { path: '/detailed-scan', component: DetailedScan },
 ]
 
 const router = createRouter({

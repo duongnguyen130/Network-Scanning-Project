@@ -1,7 +1,7 @@
 <template>
-  <div class="app">
+  <div class="flex h-screen">
     <Sidebar />
-    <div class="main-content">
+    <div class="flex-1 bg-gray-50 p-6 overflow-auto">
       <router-view />
     </div>
   </div>
@@ -10,13 +10,3 @@
 <script setup>
 import Sidebar from './components/Sidebar.vue'
 </script>
-
-<style>
-.app {
-  display: flex;
-}
-.main-content {
-  flex-grow: 1;
-  padding: 1rem;
-}
-</style>

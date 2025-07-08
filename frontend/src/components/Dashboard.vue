@@ -1,37 +1,21 @@
 <template>
   <div>
-    <h2>Dashboard</h2>
-    <div class="buttons">
-      <button @click="startPingScan">🔍 Discover Devices</button>
-      <button @click="startDetailedScan">🔬 Detailed Discovery</button>
+    <h2 class="text-2xl font-bold mb-6">Dashboard</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold text-lg mb-2">Device Discovery</h3>
+        <p>Discover all live hosts in your network</p>
+        <router-link to="/device-discovery">
+          <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Start Discovery</button>
+        </router-link>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-semibold text-lg mb-2">Detailed Scan</h3>
+        <p>Discover all devices in your network</p>
+        <router-link to="/detailed-scan">
+          <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Start Discovery</button>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
-
-<script setup>
-import { useRouter } from 'vue-router'
-import axios from 'axios'
-
-const router = useRouter()
-
-const startPingScan = async () => {
-  await axios.get('/api/ping-scan/')
-  router.push('/discovery')
-}
-
-const startDetailedScan = async () => {
-  await axios.get('/api/detailed-scan/')
-  router.push('/detailed')
-}
-</script>
-
-<style scoped>
-.buttons {
-  display: flex;
-  gap: 1rem;
-}
-button {
-  padding: 0.5rem 1rem;
-  font-size: 16px;
-}
-</style>
