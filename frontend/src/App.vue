@@ -1,13 +1,22 @@
 <template>
-  <div class="flex h-screen">
+  <div class="app">
     <Sidebar />
-    <div class="flex-1 p-6 overflow-y-auto">
-      <Dashboard />
+    <div class="main-content">
+      <router-view />
     </div>
   </div>
 </template>
 
 <script setup>
 import Sidebar from './components/Sidebar.vue'
-import Dashboard from './views/Dashboard.vue'
 </script>
+
+<style>
+.app {
+  display: flex;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 1rem;
+}
+</style>

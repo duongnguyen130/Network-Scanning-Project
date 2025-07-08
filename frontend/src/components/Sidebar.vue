@@ -1,8 +1,33 @@
 <template>
-  <aside class="w-64 bg-gray-900 text-white flex flex-col p-4">
-    <h1 class="text-2xl font-bold mb-8">🛡️ Network Scanner</h1>
-    <nav class="space-y-4">
-      <button class="block w-full text-left hover:bg-gray-800 p-2 rounded">Dashboard</button>
-    </nav>
-  </aside>
+  <nav class="sidebar">
+    <ul>
+      <li><router-link to="/">Dashboard</router-link></li>
+      <li><router-link to="/discovery">Device Discovery</router-link></li>
+      <li><router-link to="/detailed">Detailed Scan</router-link></li>
+    </ul>
+  </nav>
 </template>
+
+<style scoped>
+.sidebar {
+  width: 200px;
+  background-color: #2c3e50;
+  color: white;
+  height: 100vh;
+  padding: 1rem;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  margin: 1rem 0;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+.sidebar a.router-link-active {
+  font-weight: bold;
+}
+</style>
