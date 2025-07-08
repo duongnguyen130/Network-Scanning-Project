@@ -1,21 +1,13 @@
 <template>
-  <div>
-    <h1>Network Scanning Tool</h1>
-    <Scanner />
+  <div class="flex h-screen">
+    <Sidebar />
+    <div class="flex-1 p-6 overflow-y-auto">
+      <Dashboard />
+    </div>
   </div>
 </template>
 
 <script setup>
-import Scanner from './components/Scanner.vue'
+import Sidebar from './components/Sidebar.vue'
+import Dashboard from './views/Dashboard.vue'
 </script>
-<script>
-export default {
-  name: 'App'
-}
-</script>
-<style>
-body {
-  font-family: Arial, sans-serif;
-}
-</style>
-

@@ -1,22 +1,28 @@
 <template>
-  <div>
-    <button @click="runPingScan">Run Ping Scan</button>
-    <button @click="runDetailedScan">Run Detailed Scan</button>
+  <div class="bg-white shadow rounded-lg p-6 space-y-6">
+    <div class="flex space-x-4">
+      <button @click="runPingScan" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+        Run Ping Scan
+      </button>
+      <button @click="runDetailedScan" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">
+        Run Detailed Scan
+      </button>
+    </div>
 
-    <div v-if="loading">⏳ Loading...</div>
+    <div v-if="loading" class="text-gray-600">⏳ Scanning...</div>
 
     <div v-if="pingResults.length">
-      <h2>Ping Scan Results:</h2>
-      <ul>
+      <h3 class="text-xl font-medium mt-6">Ping Scan Results</h3>
+      <ul class="list-disc pl-6">
         <li v-for="host in pingResults" :key="host.host">{{ host.host }}</li>
       </ul>
     </div>
 
     <div v-if="detailedResults.length">
-      <h2>Detailed Scan Results:</h2>
-      <ul>
+      <h3 class="text-xl font-medium mt-6">Detailed Scan Results</h3>
+      <ul class="list-disc pl-6">
         <li v-for="host in detailedResults" :key="host.host">
-          {{ host.host }} - {{ host.OS }} - {{ host["Device Type"] }}
+          {{ host.host }} - {{ host.OS }} - {{ host['Device Type'] }}
         </li>
       </ul>
     </div>
